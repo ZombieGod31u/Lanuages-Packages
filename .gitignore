@@ -1,9 +1,12 @@
-# Private signing keys
-private_key.pem
-*.key
+# Signing keys
 *.pem
+*.key
+*.bin
 
-# Python cache
+# Plaintext language packages
+*.zip
+
+# Python
 __pycache__/
 *.pyc
 

@@ -2,19 +2,14 @@
 
 Official language packages for PolyLingo.
 
-Packages are digitally signed using Ed25519.
-
-Each package consists of:
-
-- The language package ZIP.
-- A corresponding `.sig` signature file.
-
-PolyLingo verifies the package signature before installing the package.
+Packages are encrypted and digitally signed.
 
 ## Package Structure
+
+Each language package is stored by language and version:
 
 ```text
 Language/
 └── Version/
-    ├── Language.zip
-    └── Language.zip.sig
+    ├── package.pkg.enc
+    └── package.pkg.enc.sig
